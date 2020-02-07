@@ -4,6 +4,7 @@
 #include <RcppEigen.h>
 
 using MatrixXd = Eigen::MatrixXd;
+using VectorXd = Eigen::VectorXd;
 
 // via the depends attribute we tell Rcpp to create hooks for
 // RcppEigen so that the build process will know what to do
