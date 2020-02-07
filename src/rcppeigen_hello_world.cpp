@@ -3,6 +3,8 @@
 // we only include RcppEigen.h which pulls Rcpp.h in for us
 #include <RcppEigen.h>
 
+using MatrixXd = Eigen::MatrixXd;
+
 // via the depends attribute we tell Rcpp to create hooks for
 // RcppEigen so that the build process will know what to do
 //
@@ -15,7 +17,7 @@
 // available from R
 //
 // [[Rcpp::export]]
-Eigen::MatrixXd rcppeigen_hello_world() {
+MatrixXd rcppeigen_hello_world() {
     Eigen::MatrixXd m1 = Eigen::MatrixXd::Identity(3, 3);
     // Eigen::MatrixXd m2 = Eigen::MatrixXd::Random(3, 3);
     // Do not use Random() here to not promote use of a non-R RNG

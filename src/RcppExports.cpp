@@ -7,7 +7,7 @@
 using namespace Rcpp;
 
 // rcppeigen_hello_world
-Eigen::MatrixXd rcppeigen_hello_world();
+MatrixXd rcppeigen_hello_world();
 RcppExport SEXP _eigentest_rcppeigen_hello_world() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
