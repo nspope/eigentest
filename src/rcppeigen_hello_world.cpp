@@ -18,11 +18,11 @@ using VectorXd = Eigen::VectorXd;
 // available from R
 //
 // [[Rcpp::export]]
-MatrixXd rcppeigen_hello_world() {
-    Eigen::MatrixXd m1 = Eigen::MatrixXd::Identity(3, 3);
+Eigen::MatrixXd rcppeigen_hello_world() {
+    MatrixXd m1 = Eigen::MatrixXd::Identity(3, 3);
     // Eigen::MatrixXd m2 = Eigen::MatrixXd::Random(3, 3);
     // Do not use Random() here to not promote use of a non-R RNG
-    Eigen::MatrixXd m2 = Eigen::MatrixXd::Zero(3, 3);
+    MatrixXd m2 = Eigen::MatrixXd::Zero(3, 3);
     for (auto i=0; i<m2.rows(); i++)
         for (auto j=0; j<m2.cols(); j++)
             m2(i,j) = R::rnorm(0, 1);
