@@ -2,13 +2,15 @@
 #define INLASSLE_H
 
 #include <RcppArmadillo.h> 
-//#include <RcppParallel.h> 
+#include <RcppParallel.h> 
 #include <boost/math/special_functions/polygamma.hpp>
 #include <boost/math/special_functions/gamma.hpp>
 #include <boost/math/special_functions/bessel.hpp>
 
 // [[Rcpp::depends(RcppArmadillo,RcppParallel,BH)]]
 // [[Rcpp::plugins(cpp11)]]
+
+bad
 
 //using vec   = arma::vec;
 //using uvec  = arma::uvec;
