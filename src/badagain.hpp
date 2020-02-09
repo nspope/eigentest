@@ -1,8 +1,8 @@
 #ifndef RESISTANCESOLVER_H
 #define RESISTANCESOLVER_H
 
-#include <RcppEigen.h>
-#include <RcppParallel.h> 
+//#include <RcppEigen.h>
+//#include <RcppParallel.h> 
 
 // [[Rcpp::depends(RcppEigen,RcppParallel)]]
 // [[Rcpp::plugins(cpp11)]]
