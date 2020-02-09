@@ -10,8 +10,6 @@
 // [[Rcpp::depends(RcppArmadillo,RcppParallel,BH)]]
 // [[Rcpp::plugins(cpp11)]]
 
-bad
-
 //using vec   = arma::vec;
 //using uvec  = arma::uvec;
 //using mat   = arma::mat;
