@@ -7,8 +7,6 @@
 // [[Rcpp::depends(RcppEigen,RcppParallel)]]
 // [[Rcpp::plugins(cpp11)]]
 
-bad
-
 using MatrixXd = Eigen::MatrixXd;
 using MatrixXi = Eigen::MatrixXi;
 using VectorXd = Eigen::VectorXd;
