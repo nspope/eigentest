@@ -2,7 +2,7 @@
 #define INLASSLE_H
 
 //#include <RcppArmadillo.h> 
-#include <RcppParallel.h> 
+//#include <RcppParallel.h> 
 #include <boost/math/special_functions/polygamma.hpp>
 #include <boost/math/special_functions/gamma.hpp>
 #include <boost/math/special_functions/bessel.hpp>
@@ -20,7 +20,7 @@ using boost::math::polygamma;
 using boost::math::lgamma;
 using boost::math::cyl_bessel_k;
 
-using Worker = RcppParallel::Worker;
-using Split  = RcppParallel::Split;
+//using Worker = RcppParallel::Worker;
+//using Split  = RcppParallel::Split;
 
 #endif /* INLASSLE_H */
